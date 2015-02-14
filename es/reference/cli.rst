@@ -5,8 +5,7 @@ Las aplicaciones CLI son ejectuadas desde la líneas de comandos. Son muy últil
 
 Tasks
 -----
-Las Tasks son similares a los controladores, así pueden ser implementas 
-Tasks are similar to controllers, on them can be implemented
+Las Tasks son similares a los controladores, así pueden ser implementadas
 
 .. code-block:: php
 
