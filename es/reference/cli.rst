@@ -1,10 +1,11 @@
-Command Line Applications
+Command Line Applications (CLI)
 =========================
 
-CLI applications are executed from the command line. They are useful to create cron jobs, scripts, command utilities and more.
+Las aplicaciones CLI son ejectuadas desde la líneas de comandos. Son muy últiles para crear tareas cron, scripts, comandos y utilidades entre otros.
 
 Tasks
 -----
+Las Tasks son similares a los controladores, así pueden ser implementas 
 Tasks are similar to controllers, on them can be implemented
 
 .. code-block:: php
@@ -25,10 +26,10 @@ Tasks are similar to controllers, on them can be implemented
 
 	<?php
 
-	//Using the CLI factory default services container
+	//Usando el CLI en el contenedor de servicios inicial
 	$di = new Phalcon\DI\FactoryDefault\CLI();
 
-	//Create a console application
+	//Crear una consola de aplicación
 	$console = new \Phalcon\CLI\Console();
 	$console->setDI($di);
 
